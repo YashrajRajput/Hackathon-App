@@ -1,0 +1,92 @@
+/* styles/HackathonCard.css */
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* styles/HackathonCard.css */
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h3 {
+    color: #333;
+}
+
+.card p {
+    color: #666;
+}
+
+.card button {
+    margin-top: 10px;
+    background-color: #28a745;
+}
+
+.card button:hover {
+    background-color: #218838;
+}
+
+
+
+
+
+/* *********************************************** */
+/* src/styles.css */
+.hackathon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Adjust to your layout needs */
+}
+
+.hackathon-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    /* Adjust width as needed */
+    transition: box-shadow 0.3s;
+}
+
+.hackathon-image {
+    width: 100%;
+    /* Make the image responsive */
+    height: auto;
+    border-radius: 8px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    /* Align buttons appropriately */
+    margin-top: 10px;
+}

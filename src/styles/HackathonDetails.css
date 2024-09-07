@@ -1,0 +1,34 @@
+/* styles/HackathonDetails.css */
+.details {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+
+
+/* styles/HackathonDetails.css */
+.details {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.details img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.details h2 {
+    color: #333;
+}
+
+.details p {
+    color: #666;
+}
